@@ -8,17 +8,30 @@ function Nav() {
     };
 
   return (
- <Nav>
-       <h3>Logo here</h3>
+ <nav>
        <ul className="nav-links">
-           {/* <Link style={navStyle} to="/about">
+           <Link to="/about">
                <li>About</li>
-           </Link> */}
-           {/* <Link style={navStyle} to="/StockDetail"> */}
-           <li >StockDetail</li>
-            {/* </Link> */}
+           </Link>
+
+           <Link to="/StockLosers">
+               <li>Stock Losers</li>
+           </Link>
+
+           <Link to="/StockWinners">
+               <li>Stock Winners</li>
+           </Link>
+
+           <Link to="/MajorIndexes">
+               <li>Major Indexes</li>
+           </Link>
+
+           <Link to="/StockDetail">
+               <li>Stock Detail</li>
+           </Link>
+
        </ul>
-   </Nav>
+   </nav>
   );
 }
 

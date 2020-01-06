@@ -14,7 +14,9 @@ This is a Go to Webpage to learn whats Hot and whats Not on Wall Street.  It sho
 
 ## Wireframes
 
-- [Initial Wireframe](https://res.cloudinary.com/john-deere/image/upload/v1578321821/wireframe1_kifapa.jpg)
+- [Initial Wireframe]
+<!-- (https://res.cloudinary.com/john-deere/image/upload/v1578321821/wireframe1_kifapa.jpg) -->
+
 	- Rough Draft of how I want this to work.
 <!-- - [react architecture]() -->
 
