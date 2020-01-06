@@ -1,68 +1,79 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stocks Project
 
-## Available Scripts
+<!-- ![](https://media.giphy.com/media/R6xi8dXsRhIjK/giphy.gif)
+<--- me coding this app! -->
 
-In the project directory, you can run:
+## Project Description
 
-### `npm start`
+This is a Go to Webpage to learn whats Hot and whats Not on Wall Street.  It shows Gainers and Loosers along with Major Indexes.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Links
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [github repo](https://git.generalassemb.ly/mh44698/project-2)
+<!-- - [deployment]() -->
 
-### `npm test`
+## Wireframes
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Initial Wireframe](https://res.cloudinary.com/john-deere/image/upload/v1578321821/wireframe1_kifapa.jpg)
+	- this is my initial thinking of how I want my page to work.
+<!-- - [react architecture]() -->
 
-### `npm run build`
+Define the the React components and the architectural design of your app.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### MVP/PostMVP
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### MVP
+- Use API's to display Financial data to the end user.
+- Develop an app that uses react router and dom to display end user data.
+- Create a Navigation that allows the user to switch between Indexs and Stocks
+- Show Gainers and looser stocks on the same page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### PostMVP EXAMPLE
+- Add a detail page that can graph historicals
+- This will be directed by a link
 
-### `npm run eject`
+## Components
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| Component | Description | 
+| --- | :---: |  
+| App | This will make the initial data pull and include React Router| 
+| Header | This will render the header include the nav | 
+| StockWinners | This will render the 10 best stocks for the day | 
+| StockLosers | This will render the StockLosers for the day | 
+| Indexes | This will render the Indexes Performances | 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Time Frames
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Planning | H | 4hrs |  |  |
+| Create all initial files and initial React setup | H | 3hrs |  |  |
+| Connect to API and show it responding | H | 8hrs | 4hrs |  |
+| Develop code for App | H | 16hrs |  |  |
+| Develop code for Header and Main | H | 2hrs |  |  |
+| Stylize the app | H | 4hrs |  |  |
+| Work on final documentation | H | 5hrs |  |  |
+| Prepare Video Presentation | H | 3hrs |  |  |
+| Debugging | H | 8hrs |  |  |
+| Total | H | 42hrs |  |  |
 
-## Learn More
+## Additional Libraries
+ <!-- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc.  -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Code Snippet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code.  -->
 
-### Code Splitting
+<!-- ```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+``` -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Issues and Resolutions
+ <!-- Use this section to list of all major issues encountered and their resolution. -->
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- #### SAMPLE.....
+**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
+**RESOLUTION**: Missing comma after first object in sources {} object -->
