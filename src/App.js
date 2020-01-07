@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Component/App.css';
 import Nav from './Component/Nav.js'
 import About from './Component/About.js'
 import StockDetail from './Component/StockDetail.js'

@@ -15,9 +15,9 @@ This is a Go to Webpage to learn whats Hot and whats Not on Wall Street.  It sho
 ## Wireframes
 
 - [Initial Wireframe](https://res.cloudinary.com/dvadpca5q/image/upload/v1578346949/SEI/Wireframe-Fianance_wrk9id.jpg)
+- [react architecture](https://res.cloudinary.com/dvadpca5q/image/upload/v1578413390/SEI/0198092a-e5cb-4081-9b0d-824bb0b381ab_zzoem6.pdf)
 
 	- Rough Draft of how I want this to work.
-<!-- - [react architecture]() -->
 
 Define the the React components and the architectural design of your app.
 
@@ -51,7 +51,7 @@ Define the the React components and the architectural design of your app.
 | Planning | H | 4hrs |  |  |
 | Create all initial files and initial React setup | H | 3hrs |  |  |
 | Connect to API and show it responding | H | 8hrs | 4hrs |  |
-| Develop code for App | H | 16hrs |  |  |
+| Develop code for App | H | 16hrs | 3hrs |  |
 | Develop code for Header and Main | H | 2hrs |  |  |
 | Stylize the app | H | 4hrs |  |  |
 | Work on final documentation | H | 5hrs |  |  |

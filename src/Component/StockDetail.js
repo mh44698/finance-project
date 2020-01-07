@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 
 
 
@@ -18,10 +19,24 @@ function StockDetail() {
   }
   return (
     <div>
+      Stock DE
+      <table>
      {items.map(item => (
-        <h1>
-        {item.date} {item.open} {item.close} 
-        </h1>
+        <tr>
+        <th>{item.date}</th>
+        <th>{item.open}</th>
+        <th>{item.high}</th>
+        <th>{item.low}</th>
+        <th>{item.close}</th>
+        </tr>
+     ))}
+     </table>
+    </div>
+  );
+}
+
+export default StockDetail;
+
 // date: "2015-01-06"
 // open: 106.54
 // high: 107.43
@@ -34,9 +49,3 @@ function StockDetail() {
 // vwap: 106.10667
 // label: "January 06, 15"
 // changeOverTime: 0.00263
-     ))}
-    </div>
-  );
-}
-
-export default StockDetail;

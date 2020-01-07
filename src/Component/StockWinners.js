@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './App.css';
 
 
 function StockWinners() {
@@ -19,14 +19,16 @@ function StockWinners() {
   }
   return (
     <div>
+      <table align="center">
      {items.map(item => (
-        <h1>
-        {item.ticker} - {item.companyName}<br></br>
-        Price ${item.price}<br></br>
-        Changes ${item.changes}
-        </h1>
-        
+        <tr>
+        <th>{item.ticker}</th>
+        <th>{item.companyName}</th>
+        <th>$ {item.price}</th>
+        <th>$ {item.changes}</th>
+        </tr>
      ))}
+     </table>
     </div>
   );
 }

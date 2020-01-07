@@ -10,23 +10,24 @@ function Nav() {
   return (
  <nav>
        <ul className="nav-links">
-           <Link to="/about">
+
+           <Link style={navStyle} to="/about">
                <li>About</li>
            </Link>
 
-           <Link to="/StockLosers">
-               <li>Stock Losers</li>
-           </Link>
-
-           <Link to="/StockWinners">
+           <Link style={navStyle} to="/StockWinners">
                <li>Stock Winners</li>
            </Link>
 
-           <Link to="/MajorIndexes">
+           <Link style={navStyle} to="/StockLosers">
+               <li>Stock Losers</li>
+           </Link>
+
+           <Link style={navStyle} to="/MajorIndexes">
                <li>Major Indexes</li>
            </Link>
 
-           <Link to="/StockDetail">
+           <Link style={navStyle} to="/StockDetail">
                <li>Stock Detail</li>
            </Link>
 

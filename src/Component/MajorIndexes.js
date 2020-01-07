@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css';
 
 
 
@@ -19,14 +20,16 @@ function MajorIndexes() {
   }
   return (
     <div>
+        <table >
      {items.map(item => (
-        <h1>
-        {item.ticker} - {item.indexName}<br></br>
-        Price ${item.price}<br></br>
-        Changes ${item.changes}
-        </h1>
-        
+        <tr>
+        <th>{item.ticker}</th>
+        <th>{item.indexName}</th>
+        <th>$ {item.price}</th>
+        <th>$ {item.changes}</th>
+        </tr>
      ))}
+     </table>
     </div>
   );
 }
