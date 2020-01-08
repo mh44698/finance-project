@@ -19,16 +19,26 @@ function MajorIndexes() {
     setItems(items.majorIndexesList);
   }
   return (
-    <div>
-        <table >
-     {items.map(item => (
+        <div className="financial-loser">
+        <table align="center">
+        <thead>
         <tr>
-        <th>{item.ticker}</th>
-        <th>{item.indexName}</th>
-        <th>$ {item.price}</th>
-        <th>$ {item.changes}</th>
+        <th className="table-header">Symbol</th>
+        <th className="table-header">Index Name</th>
+        <th className="table-header">Price</th>
+        <th className="table-header">Change</th>
+        </tr>
+        </thead>
+        <tbody>
+     {items.map(item => (
+        <tr key={item.ticker}>
+        <td>{item.ticker}</td>
+        <td>{item.indexName}</td>
+        <td>$ {item.price}</td>
+        <td>$ {item.changes}</td>
         </tr>
      ))}
+     </tbody>
      </table>
     </div>
   );

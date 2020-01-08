@@ -61,6 +61,7 @@ Define the the React components and the architectural design of your app.
 
 ## Additional Libraries
  <!-- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc.  -->
+npm install react-financial-charts
 
 ## Code Snippet
 

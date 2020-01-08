@@ -10,25 +10,20 @@ function Nav() {
   return (
  <nav>
        <ul className="nav-links">
-
-           <Link style={navStyle} to="/about">
-               <li>About</li>
+            <Link style={navStyle} to="/">
+               <li>Home</li>
            </Link>
 
            <Link style={navStyle} to="/StockWinners">
-               <li>Stock Winners</li>
+               <li>Bullish Stocks</li>
            </Link>
 
            <Link style={navStyle} to="/StockLosers">
-               <li>Stock Losers</li>
+               <li>Bearish Stocks</li>
            </Link>
 
            <Link style={navStyle} to="/MajorIndexes">
                <li>Major Indexes</li>
-           </Link>
-
-           <Link style={navStyle} to="/StockDetail">
-               <li>Stock Detail</li>
            </Link>
 
        </ul>

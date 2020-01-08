@@ -2,14 +2,40 @@
   text-align: center;
 }
 
+a:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+img {
+  border: black;
+  border-style: dashed;
+  margin: auto;
+
+}
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
+  min-height: 20vh;
   background-color: black;
   color: white;
   list-style: none;
+}
+
+.table-header {
+  background-color: khaki;
+}
+
+tr {
+  padding: 10%;
 }
 
 .nav-links {
@@ -18,4 +44,42 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+.financial-loser {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.financial-winner {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .financial-winner-table {
+  border: 1px solid black;
+} */
+
+.financial-winner-table-change {
+  background-color: green;
+}
+
+.financial-loser {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .financial-loser-table {
+  border: 1px solid black;
+  padding: 15px;
+} */
+
+.financial-loser-table-change {
+  background-color: red;
+}
+
+.table-cell {
+  padding: 5px;
 }
