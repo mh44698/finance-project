@@ -16,7 +16,6 @@ function StockLosers() {
       'https://financialmodelingprep.com/api/v3/stock/losers'
     );
     const items = await data.json();
-    console.log(items.mostLoserStock)
     setItems(items.mostLoserStock);
   }
   return (

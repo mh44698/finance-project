@@ -15,7 +15,6 @@ function MajorIndexes() {
       'https://financialmodelingprep.com/api/v3/majors-indexes'
     );
     const items = await data.json();
-    console.log("majorindex",items.majorIndexesList)
     setItems(items.majorIndexesList);
   }
   return (
