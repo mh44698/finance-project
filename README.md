@@ -48,16 +48,16 @@ Define the the React components and the architectural design of your app.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Planning | H | 4hrs |  |  |
-| Create all initial files and initial React setup 	| H | 3hrs | 3hrs |  |
-| Connect to API and show it responding 			| H | 8hrs | 4hrs |  |
-| Develop code for App 								| H | 16hrs | 3hrs |  |
-| Develop code for Header and Main 					| H | 2hrs | 2hrs |  |
-| Stylize the app 									| H | 4hrs | 8hrs |  |
-| Work on final documentation						| H | 5hrs | 3hrs |  |
-| Prepare Video Presentation 						| H | 3hrs | 2hrs |  |
-| Debugging 										| H | 8hrs | 2hrs |  |
-| Total | H | 42hrs |  |  |
+| Planning 											| H | 4hrs | 2hrs | 2hrs |
+| Create all initial files and initial React setup 	| H | 3hrs | 3hrs | 4hrs |
+| Connect to API and show it responding 			| H | 8hrs | 4hrs | 6hrs |
+| Develop code for App 								| H | 16hrs | 3hrs | 9hrs |
+| Develop code for Header and Main 					| H | 2hrs | 2hrs | 6hrs |
+| Stylize the app 									| H | 4hrs | 8hrs | 8hrs |
+| Work on final documentation						| H | 5hrs | 3hrs | 3hrs |
+| Prepare Video Presentation 						| H | 3hrs | 2hrs | 2hrs |
+| Debugging 										| H | 8hrs | 2hrs | 2hrs |
+| Total 											| H | 53hrs | 29hrs | 42hrs |
 
 ## Additional Libraries
  <!-- Use this section to list all supporting libraries and their role in the project such as Axios, ReactStrap, D3, etc.  -->
@@ -65,7 +65,7 @@ npm install react-financial-charts
 
 ## Code Snippet
 
-<tbody>
+	<tbody>
      {items.map(item => (
         <tr key={item.ticker}>
         <td className="table-cell"><Link to={`/StockDetail/${item.ticker}`}>{item.ticker}</Link></td>
@@ -74,7 +74,7 @@ npm install react-financial-charts
         <td className="financial-winner-table-change table-cell">$ {item.changes}</td>
         </tr>
      ))}
- </tbody>
+	 </tbody>
 
 
 
