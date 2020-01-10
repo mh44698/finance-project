@@ -49,14 +49,14 @@ Define the the React components and the architectural design of your app.
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Planning | H | 4hrs |  |  |
-| Create all initial files and initial React setup | H | 3hrs |  |  |
-| Connect to API and show it responding | H | 8hrs | 4hrs |  |
-| Develop code for App | H | 16hrs | 3hrs |  |
-| Develop code for Header and Main | H | 2hrs |  |  |
-| Stylize the app | H | 4hrs |  |  |
-| Work on final documentation | H | 5hrs |  |  |
-| Prepare Video Presentation | H | 3hrs |  |  |
-| Debugging | H | 8hrs |  |  |
+| Create all initial files and initial React setup 	| H | 3hrs | 3hrs |  |
+| Connect to API and show it responding 			| H | 8hrs | 4hrs |  |
+| Develop code for App 								| H | 16hrs | 3hrs |  |
+| Develop code for Header and Main 					| H | 2hrs | 2hrs |  |
+| Stylize the app 									| H | 4hrs | 8hrs |  |
+| Work on final documentation						| H | 5hrs | 3hrs |  |
+| Prepare Video Presentation 						| H | 3hrs | 2hrs |  |
+| Debugging 										| H | 8hrs | 2hrs |  |
 | Total | H | 42hrs |  |  |
 
 ## Additional Libraries
@@ -65,17 +65,29 @@ npm install react-financial-charts
 
 ## Code Snippet
 
-<!-- Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code.  -->
+<tbody>
+     {items.map(item => (
+        <tr key={item.ticker}>
+        <td className="table-cell"><Link to={`/StockDetail/${item.ticker}`}>{item.ticker}</Link></td>
+        <td className="table-cell">{item.companyName}</td>
+        <td className="table-cell">$ {item.price}</td>
+        <td className="financial-winner-table-change table-cell">$ {item.changes}</td>
+        </tr>
+     ))}
+ </tbody>
 
-<!-- ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-``` -->
+
 
 ## Issues and Resolutions
  <!-- Use this section to list of all major issues encountered and their resolution. -->
-
+ Line 9:5:  React Hook useEffect has a missing dependency: 'fetchItem'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
 <!-- #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object -->
+
+## Future Enhancements
+1. Include a chart on StockDetails page.
+2. Resolve small warning on the react hook.
+3. Add more availabel api's to the page.
+	a. Market Segment performance
+		1.  This could include a heat map of the data.
