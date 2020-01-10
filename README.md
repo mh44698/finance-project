@@ -9,7 +9,9 @@ This is a Go to Webpage to learn whats Hot and whats Not on Wall Street.  It sho
 
 ## Project Links
 
-- [github repo](https://git.generalassemb.ly/mh44698/project-2)
+- [github repo](https://github.com/mh44698/finance-project)
+- [You Tube Demo](https://youtu.be/gci8QnW6HQo)
+- [LiveVersion](https://cocky-allen-0b444a.netlify.com/)
 <!-- - [deployment]() -->
 
 ## Wireframes
@@ -27,9 +29,10 @@ Define the the React components and the architectural design of your app.
 - Use API's to display Financial data to the end user.
 - Develop an app that uses react router and dom to display end user data.
 - Create a Navigation that allows the user to switch between Indexs and Stocks
-- Show Gainers and looser stocks on the same page.
+
 
 #### PostMVP EXAMPLE
+- Show Gainers and looser stocks on the same page.
 - Add a detail page that can graph historicals
 - This will be directed by a link
 

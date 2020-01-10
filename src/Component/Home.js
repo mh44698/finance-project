@@ -11,8 +11,7 @@ function Home() {
          ></img></a>
      <a href="./StockLosers">
          <img alt="Bear" src="/bear.jpeg"
-         ></img></a>
-        <br></br>
+         ></img></a><br></br>
       <a href="./MajorIndexes">
          <img alt="Indexes" src="/indexes.jpeg"
          ></img></a>

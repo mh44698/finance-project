@@ -14,7 +14,6 @@ function StockWinners() {
       'https://financialmodelingprep.com/api/v3/stock/gainers'
     );
     const items = await data.json();
-    // console.log(items.mostGainerStock)
     setItems(items.mostGainerStock);
   }
   return (
